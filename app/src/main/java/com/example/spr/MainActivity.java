@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getBaseContext(), android.R.layout.simple_list_item_1, filmy);
             lista.setAdapter(arrayAdapter);
+
             tytul.setText("");
             rezyser.setText("");
         });
